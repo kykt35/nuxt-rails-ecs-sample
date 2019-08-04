@@ -4,7 +4,7 @@ services:
     image: mysql:5.7.23
     restart: always
     ports:
-      - "4306:3306"
+      - "4307:3306"
     environment:
       MYSQL_ROOT_PASSWORD: nuxt-rails-app
     volumes:
